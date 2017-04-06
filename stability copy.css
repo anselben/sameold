@@ -1,0 +1,32 @@
+body {
+	font-family: Times New Roman, serif;
+	font-size: 80px;
+
+}
+
+div {
+		/*border: solid 1px #000000;*/
+	}
+
+div#stability {
+
+	width: 2em;
+	/*centering trick; left and right are automatically split on 'auto'*/
+	margin: 10% auto;
+}
+
+div#stability div {				/*each iteration of the #stability style is affecting the differnt individual (divs). The first markup shows what happens to all divs */ 
+	width: 1em;
+	float: left;		/*with the "float" characters begin to lose their weight. */ 
+	text-align: center;
+	line-height: .65em;  /*the lower the .em number, the closer together the LETTERS WILL BE! ***EM IS AMOUNT OF FONT SIZE */
+}
+
+
+#instability {
+	position: absolute; /*"ABSOLUTE" will keep text or whatever in the same exact position!!! TRY AND LOOK AT IT< AND CONTINUE!!!!!*/
+	
+	left: 400px;
+	top: 250px;
+	transform: rotate(65deg);
+}
