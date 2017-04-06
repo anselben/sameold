@@ -1,0 +1,9 @@
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+#marquee {
+	position: absolute; /*"ABSOLUTE" will keep text or whatever in the same exact position!!! TRY AND LOOK AT IT< AND CONTINUE!!!!!*/
+	
+}
